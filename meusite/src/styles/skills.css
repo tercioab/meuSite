@@ -7,6 +7,16 @@
     gap: 1rem;
     padding: 2rem;
     color: black;
+    border-top: 2px solid;
+    border-image: linear-gradient(
+      90deg,
+      #bbff00 0%,
+      #00ff73 21%,
+      #00ffff 46%,
+      #00b7ff 69%,
+      #0044ff 100%
+    ); 
+    border-image-slice: 1;
  }
  
  .link-skills {
