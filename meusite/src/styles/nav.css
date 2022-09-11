@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    animation: opacity 3s alternate;
+    background-color:  #1a1a1a;;
+}
+
+@keyframes opacity {
+    from {
+        filter: opacity(0%)
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #f0f0f0;
+    animation: blurNav 3s alternate;
+}
+
+@keyframes blurNav {
+    from {
+      filter: opacity(0%);
+    }
+    to {
+     
+     
+      
+    }
+  }
