@@ -6,6 +6,7 @@
     border: 0;
     font-family: 'Roboto Condensed', sans-serif;
     vertical-align: baseline;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -17,3 +18,19 @@ p {
 }
 
 
+body::-webkit-scrollbar {
+    width: 10px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f0f0f0;  
+ 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:#1a1a1a;    
+    border-radius: 0px;     
+    border: 3px solid #f0f0f0;  
+  
+    
+  }

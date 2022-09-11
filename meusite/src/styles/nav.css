@@ -2,7 +2,13 @@ nav {
     display: flex;
     justify-content: space-evenly;
     animation: opacity 3s alternate;
-    background-color:  #1a1a1a;;
+    background-color:  #1a1a1a;
+    transition: 1s;
+}
+
+nav a:hover {
+    transition: 1s;
+    letter-spacing: 5px;
 }
 
 @keyframes opacity {

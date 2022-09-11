@@ -1,0 +1,33 @@
+.about {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: initial; 
+    text-align: justify;
+    justify-content: center;
+    height: 50vh;
+    gap: 1px;
+}
+
+.button-about {
+    margin-top: 1rem;
+}
+
+.title-sobre {
+    padding-top: 3rem;
+    border-top: 4px solid #1a1a1a ;
+}
+
+
+.tecnologies {
+   background-color: #ececec;
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   padding: 2rem;
+   color: black;
+}
