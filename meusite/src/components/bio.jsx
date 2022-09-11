@@ -26,7 +26,7 @@ class Bio extends React.Component {
 				<content>
 					<div className='bio'>
 						<h1>Olá me chamo {user.name}</h1>
-						<p> Sou {user.bio}</p>
+						<p>{user.bio}</p>
 						<div className='bio-buttons'>
 							<Button
 								size='small'

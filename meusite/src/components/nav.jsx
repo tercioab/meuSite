@@ -6,8 +6,8 @@ class Nav extends React.Component {
 		return (
 			<nav>
 				<Link>PROJETOS</Link>
-				<Link>HOME</Link>
-				<Link>SOBRE MIM</Link>
+				<Link to="/" >HOME</Link>
+				<Link to="/sobre" >SOBRE MIM</Link>
 			</nav>
 		);
 	}
