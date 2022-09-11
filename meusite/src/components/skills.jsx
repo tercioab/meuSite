@@ -65,7 +65,19 @@ class Skills extends React.Component {
 							alt='CSS3'
 						/>
 						<p>CSS3</p>
-					</a>
+                </a>
+                
+                <a 
+                     href='https://mui.com/pt/'
+                     className="link-skills"
+                     target='_blank'
+                     rel='noreferrer' >
+                    <img src="https://img.icons8.com/color/452/material-ui.png"
+                    width='50'
+                    height='50'
+                        alt='Material ' />
+                     <p>MATERIAL UI</p>
+                    </a>
 
                     <a href='https://getbootstrap.com/' target='_blank'
                         className="link-skills" rel='noreferrer'>
@@ -142,7 +154,12 @@ class Skills extends React.Component {
 							alt='Premiere Pro'
                         />
                         <p>PREMIERE</p>
-					</a>
+                </a>
+                 
+             
+
+
+                
 				</div>
         )
     }
