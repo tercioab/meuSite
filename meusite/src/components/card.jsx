@@ -7,21 +7,21 @@ import { CardActionArea, CardActions, Button } from "@mui/material";
 
 class CardComp extends React.Component {
 	render() {
+		const {image, title, description, link } = this.props
 		return (
 			<Card sx={{ maxWidth: 345 }}>
 				<CardActionArea>
 					<CardMedia
 						component='img'
 						height='140'
-						image='https://github.com/tercioab/felp22_page/raw/main/pagina1.png'
+						image={image}
 					/>
 					<CardContent>
 						<Typography gutterBottom variant='h5' component='div'>
-							Lizard
+							{title}
 						</Typography>
 						<Typography variant='body2' color='text.secondary'>
-							Lizards are a widespread group of squamate reptiles, with over 6,000
-							species, ranging across all continents except Antarctica
+							{description}
 						</Typography>
 					</CardContent>
 				</CardActionArea>
@@ -30,7 +30,7 @@ class CardComp extends React.Component {
 						size='small'
 						target='_blank'
 						variant='contained'
-						href='https://github.com/tercioab'
+						href={link}
 					>
 						Github
 					</Button>

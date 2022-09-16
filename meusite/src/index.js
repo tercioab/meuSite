@@ -8,6 +8,8 @@ import './styles/bio.css'
 import './styles/sobre.css'
 import './styles/skills.css'
 import './styles/footer.css'
+import './styles/projetos.css'
+
 import App from './App';
 
 
