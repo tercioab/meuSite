@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Sobre from "./pages/sobre";
 import Home from "./pages/home";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 		<>
 			<BrowserRouter>
 				<Switch>
-					<Route path='/' component={Home} />
+					<Route exact path='/' component={Home} />
+					<Route exact path='/sobre' component={Sobre} />
 				</Switch>
 			</BrowserRouter>
 		</>

@@ -4,6 +4,10 @@ import './styles/general.css'
 import './styles/header.css'
 import './styles/nav.css'
 import './styles/home.css'
+import './styles/bio.css'
+import './styles/sobre.css'
+import './styles/skills.css'
+import './styles/footer.css'
 import App from './App';
 
 

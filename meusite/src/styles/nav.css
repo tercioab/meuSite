@@ -7,15 +7,7 @@ nav {
     border-bottom: 2px solid;
     border-top: 2px solid;
     
-    border-image: linear-gradient(
-      90deg,
-      #bbff00 0%,
-      #00ff73 21%,
-      #00ffff 46%,
-      #00b7ff 69%,
-      #0044ff 100%
-    ); 
-    border-image-slice: 1;
+   
 }
 
 nav a:hover {
@@ -23,22 +15,6 @@ nav a:hover {
     animation:  hover 1s alternate ;
 }
 
-@keyframes hover {
-    from {
-        filter: blur(20px);
-        color:#00ffff;
-    }
-
-    to {
-       
-    }
-}
-
-@keyframes opacity {
-    from {
-        filter: opacity(0%)
-    }
-}
 
 a{
     text-decoration: none;

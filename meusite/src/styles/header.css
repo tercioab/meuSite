@@ -1,20 +1,31 @@
 .title {
-    font-size: 15rem;
+    font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: blur 3s alternate;
- 
+    -webkit-text-stroke: 1px black;
+    color: rgba(32, 32, 32, 0);
+}
+
+.title {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: blur 3s alternate;
+  -webkit-text-stroke: 1px black;
+  color: rgba(32, 32, 32, 0);
 }
 
 @keyframes blur {
     from {
-      filter: blur(20px);
-      font-size: 1rem;
+      color: black;
+
     }
     to {
-      filter: blur(0px);
-      font-size: 15rem;
+    
+    color: rgba(32, 32, 32, 0);
       
     }
   }
